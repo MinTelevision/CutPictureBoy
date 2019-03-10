@@ -1,0 +1,35 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "
+http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="关键词1,关键词2,关键词3" />
+		<meta name="description" content="对网站的描述" />
+		<title>第4题</title>
+		<style type="text/css">
+			/*不能作用到爸爸身上*/
+			/*直接到儿子身上0002*/
+			/*直接到孙子身上0002*/
+		    div div{ 
+				color:red;
+			}
+			/*直接作用爸爸身上0001*/
+			/*直接作用儿子身上0001*/
+			/*直接作用孙子身上0001*/
+			div{ 
+				color:orange;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			爸爸abc
+			<div>
+				儿子abc red
+				<div>
+					试问这行字体是什么颜色的？ red
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
